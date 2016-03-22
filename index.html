@@ -9,6 +9,7 @@
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
+<script   src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -18,7 +19,7 @@
 <body>
 
 
-
+<div id="wrapper">
 <!--  Top Nav Bar  -->
     <nav class="navbar navbar-default">
 <div class="container-fluid">
@@ -92,7 +93,7 @@
 
 <!--Page Content-->
 <!--Meeting Info Section-->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-xs-12"> 
             <div class="row">
@@ -181,13 +182,13 @@
 <div class="row officer-row">
     <div class="col-xs-5 col-xs-offset-1">
         <img src="http://www.placehold.it/400" alt="" class="img-responsive">
-        <div class="col-xs-12 text-center">
+        <div class="col-xs-12 infobox">
             <h3>President<br> Rachel Ram</h3>
         </div>
     </div>
     <div class="col-xs-5">
         <img src="http://www.placehold.it/400" alt="" class="img-responsive">
-        <div class="col-xs-12 text-center">
+        <div class="col-xs-12 infobox">
             <h3>Vice President<br> Emily Tharp</h3>
         </div>
     </div>
@@ -195,13 +196,13 @@
 <div class="row officer-row">
     <div class="col-xs-5 col-xs-offset-1">
         <img src="http://www.placehold.it/400" alt="" class="img-responsive">
-        <div class="col-xs-12 text-center">
+        <div class="col-xs-12 infobox">
             <h3>Treasurer<br> Tay Su</h3>
         </div>
     </div>
     <div class="col-xs-5">
         <img src="http://www.placehold.it/400" alt="" class="img-responsive">
-        <div class="col-xs-12 text-center">
+        <div class="col-xs-12 infobox">
             <h3>Advisor<br> Gail Rampersaud</h3>
         </div>
     </div>
@@ -217,6 +218,6 @@
         </nav>
         
     </footer>
-    
+    </div> <!--/#wrapper-->
 </body>
 </html>
